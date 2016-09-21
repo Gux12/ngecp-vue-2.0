@@ -30,7 +30,7 @@ gulp.task('browser-sync', ['webpack'], function() {
         },
         port: 2311,
         logFileChanges: true,
-        browser: "google chrome",
+        // browser: "google chrome",
 
     });
     gulp.watch(['src/**/*.*','src/*.*'], ['webpack']);

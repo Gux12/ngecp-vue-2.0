@@ -11,9 +11,9 @@ module.exports = {
     // publicPath: '/dist/',
     filename: '[name].build.js?[hash]'
   },
-  resolveLoader: {
-    root: path.join(__dirname, 'node_modules'),
-  },
+  // resolveLoader: {
+  //   root: path.join(__dirname, 'node_modules'),
+  // },
   module: {
     loaders: [
       {
